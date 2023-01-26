@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header{
+    background-color: #1f2937;
+}
+
+.con1, .con3 {
+    
+}
+
+.con2{
+    background-color: #e5e7eb;
+}
