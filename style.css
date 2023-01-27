@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
 .site{
@@ -9,14 +10,58 @@ body{
     flex: 1;
 }
 
-.header{
+.body1{
     background-color: #1f2937;
 }
 
-.con1, .con3 {
-    
+.headerlogo{
+    font-size: 24px;
+    color: #f9faf8;
 }
 
-.con2{
+.links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.body3{
     background-color: #e5e7eb;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.text2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup{
+    background-color: #3882f6;
+    font-size: 24px;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+.image{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.textbox1{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
+.box2  {
+    display: flex;
 }
