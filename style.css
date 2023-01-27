@@ -56,9 +56,11 @@ a{
     text-align: center;
     margin: 0;
     padding: 20px 60px 20px 100px ; 
+    width: 80%;
 }
 .textbox1{
     width: 500px;
+    
 }
 
 .text1{
@@ -70,11 +72,12 @@ a{
 .text2{
     font-size: 18px;
     color: #e5e7eb;
+    padding: 20px;
 }
 
 .signup{
     background-color: #3882f6;
-    font-size: 24px;
+    font-size: 18px;
     color: #f9faf8;
     border-radius: 10px;
     padding: 8px 16px;
@@ -95,7 +98,7 @@ a{
 /* Start of body2; contains project header, and listing*/
 .informationheader{
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -105,7 +108,7 @@ a{
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding: 20px;   
+    padding: 25px;   
 }
 
 .information{
@@ -125,8 +128,59 @@ img{
     text-align: center;
 }
 
-/* Start of body2; contains project header, and listing*/
+/* End of body2; contains project header, and listing*/
 
-.body3{
+
+/* Start of body3; contains quote*/
+.quote{
     background-color: #e5e7eb;
+    padding: 100px;
 }
+
+.text4{
+    font-size: 36px;
+    font-style: italic;
+    color: #1e2937;
+    text-align: center;
+}
+
+.text5{
+    text-align: center;
+}
+/* End of body3; contains quote*/
+
+/* Start of body4; contains call to action*/
+.body4{
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+
+.bluebox{
+    display: flex;
+    width: 600px;
+    background-color: #3882f6;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.textbox2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #e5e7eb;
+    
+}
+
+/* End of body4; contains call to action*/
+
+/* Start of footer*/
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 25px;
+}
+/* End of footer*/
