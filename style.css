@@ -10,6 +10,8 @@ body{
     flex: 1;
 }
 
+
+/* Start of body1; header, links, text, and image*/
 .body1{
     background-color: #1f2937;
 }
@@ -79,15 +81,51 @@ a{
     
 }
 
-.image{
+.main-image{
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
 }
 
 /* text and image*/
+/* End of body1; header, links, text, and image*/
 
 
+/* Start of body2; contains project header, and listing*/
+.informationheader{
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.all-information{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;   
+}
+
+.information{
+   justify-content: center;
+   justify-items: center;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.text3{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Start of body2; contains project header, and listing*/
 
 .body3{
     background-color: #e5e7eb;
