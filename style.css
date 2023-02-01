@@ -178,9 +178,11 @@ img{
 /* Start of footer*/
 .footer{
     background-color: #1f2937;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     color: #e5e7eb;
-    padding: 25px;
+    height: 50px;
 }
 /* End of footer*/
